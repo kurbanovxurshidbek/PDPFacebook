@@ -16,6 +16,9 @@
 		AE5F2B49254E85A8000F12B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5F2B47254E85A8000F12B7 /* LaunchScreen.storyboard */; };
 		AE5F2B54254E85A9000F12B7 /* PDPFacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5F2B53254E85A9000F12B7 /* PDPFacebookTests.swift */; };
 		AE5F2B5F254E85A9000F12B7 /* PDPFacebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5F2B5E254E85A9000F12B7 /* PDPFacebookUITests.swift */; };
+		AE5F2B71254E9553000F12B7 /* RoomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5F2B70254E9553000F12B7 /* RoomItem.swift */; };
+		AE5F2B79254E979B000F12B7 /* StoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5F2B78254E979B000F12B7 /* StoryItem.swift */; };
+		AEC0BB2B254E9BD30053D294 /* PostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC0BB2A254E9BD30053D294 /* PostItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		AE5F2B5A254E85A9000F12B7 /* PDPFacebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDPFacebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5F2B5E254E85A9000F12B7 /* PDPFacebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDPFacebookUITests.swift; sourceTree = "<group>"; };
 		AE5F2B60254E85A9000F12B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5F2B70254E9553000F12B7 /* RoomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItem.swift; sourceTree = "<group>"; };
+		AE5F2B78254E979B000F12B7 /* StoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItem.swift; sourceTree = "<group>"; };
+		AEC0BB2A254E9BD30053D294 /* PostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		AE5F2B38254E85A5000F12B7 /* PDPFacebook */ = {
 			isa = PBXGroup;
 			children = (
+				AE5F2B6F254E953F000F12B7 /* cells */,
 				AE5F2B39254E85A5000F12B7 /* AppDelegate.swift */,
 				AE5F2B3B254E85A5000F12B7 /* SceneDelegate.swift */,
 				AE5F2B3D254E85A5000F12B7 /* ContentView.swift */,
@@ -137,6 +144,16 @@
 				AE5F2B60254E85A9000F12B7 /* Info.plist */,
 			);
 			path = PDPFacebookUITests;
+			sourceTree = "<group>";
+		};
+		AE5F2B6F254E953F000F12B7 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				AE5F2B70254E9553000F12B7 /* RoomItem.swift */,
+				AE5F2B78254E979B000F12B7 /* StoryItem.swift */,
+				AEC0BB2A254E9BD30053D294 /* PostItem.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEC0BB2B254E9BD30053D294 /* PostItem.swift in Sources */,
+				AE5F2B79254E979B000F12B7 /* StoryItem.swift in Sources */,
 				AE5F2B3A254E85A5000F12B7 /* AppDelegate.swift in Sources */,
+				AE5F2B71254E9553000F12B7 /* RoomItem.swift in Sources */,
 				AE5F2B3C254E85A5000F12B7 /* SceneDelegate.swift in Sources */,
 				AE5F2B41254E85A5000F12B7 /* PDPFacebook.xcdatamodeld in Sources */,
 				AE5F2B3E254E85A5000F12B7 /* ContentView.swift in Sources */,
